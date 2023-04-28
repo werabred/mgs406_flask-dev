@@ -1,0 +1,24 @@
+<html>
+   <body>
+      <form action = "{{ url_for('addrec') }}" method = "POST">
+         <h3>Insert Employee Information Below:</h3>
+         EmpID (ENTER INT)<br>
+         <input type = "text" name = "empid" /></br>
+         
+         EmpName (ENTER VARCHAR(255))<br>
+         <input type = "text" name = "empname" /></br>
+         
+         EmpGender (ENTER VARCHAR(1))<br>
+         <input type = "text" name = "empgender" /><br>
+         
+         EmpPhone (ENTER VARCHAR(4))<br>
+         <input type = "text" name = "empphone" /><br>
+         
+         EmpBDate (ENTER format: mm/dd/yyyy)<br>
+         <input type = "text" name = "empbdate" /><br>
+
+         <input type = "submit" value = "submit" /><br>
+         <h2><a href = "/">cancel and return to the home page</a></h2>
+      </form>
+   </body>
+</html>
